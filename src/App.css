@@ -10,29 +10,66 @@
 #slack {
   display: none;
 }
+#twitter {
+  color: rgb(0, 217, 255);
+}
 .card {
   width: 80%;
   background: #eaecf0;
-  font-size: 18px;
+  font-size: 0.8rem;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 38px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
+  /* padding: 10px; */
 }
 .cards-container {
   margin-left: auto;
   margin-right: auto;
 }
+.zuri {
+  width: 10%;
+}
+.i4g {
+  width: 10%;
+}
+.svg {
+  padding: 10px;
+}
+.ft {
+  width: 5rem;
+  /* position: relative; */
+}
 a {
   text-decoration: none;
   color: black;
+}
+a:hover {
+  color: rgb(0, 217, 255);
 }
 p {
   font-weight: 6rem;
 }
 footer {
-  padding-top: 23%;
+  /* border: 1px solid; */
+  padding-top: 8%;
   margin-bottom: 0;
   display: flex;
   flex-direction: row;
+  gap: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+}
+
+#ft-text {
+  color: #667085;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+@media (max-width: 760px) {
+  #ft-text {
+    font-size: 0.5rem;
+  }
 }

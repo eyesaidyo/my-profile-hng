@@ -12,35 +12,45 @@ function App() {
         src="https://pbs.twimg.com/media/FFHy-ipXIAITdC4.jpg"
         id="profile__img"
       />
-      <h3>John Irem</h3>
+      <h3 id="twitter">@eyesaidyo</h3>
       <h3 id="slack">Rajon</h3>
       <div className="cards-container">
+        <Card link="https://twitter.com/eyesaidyo" content="Twitter" />
         <Card
           link="https://training.zuri.team/"
-          content="Zuri Team"
+          content="Enroll for Zuri training"
           Id="btn__zuri"
         />
-        <Card link="https://books.zuri.team/" content="Zuri Books" Id="books" />
         <Card
           link="https://books.zuri.team/"
-          content="Python Books"
+          content="Get books on design and programming"
           Id="books"
         />
         <Card
+          link="https://books.zuri.team/python-for-beginners?ref_id=Rajon"
+          content="Buy our new coding book"
+          Id="book__python"
+        />
+        <Card
           link="https://background.zuri.team/"
-          content="Background checks for coders"
+          content="A must-have tool for recruiters!"
           Id="pitch"
         />
-        <Card />
-        <Card />
-        <img src={slack} alt="slack" />
+        <Card
+          link="https://books.zuri.team/design-rules"
+          content="Get free design book"
+          Id="book__design"
+        ></Card>
+        <a href="https://slack.com">
+          <img className="svg" src={slack} alt="slack" />
+        </a>
         <a href="https://github.com/eyesaidyo">
-          <img src={github} alt="github" />
+          <img className="svg" src={github} alt="github" />
         </a>
         <footer>
-          <img src={zuri} alt="zuri" />
-          <p>HNG Internship 9</p>
-          <img src={i4g} alt="i4g" />
+          <img className="ft" src={zuri} alt="zuri" />
+          <span id="ft-text">HNG Internship 9 Frontend Task</span>
+          <img className="ft" src={i4g} alt="i4g" />
         </footer>
       </div>
     </div>
