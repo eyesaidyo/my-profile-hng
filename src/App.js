@@ -4,9 +4,11 @@ import i4g from "./i4g.svg";
 import zuri from "./zuri.svg";
 import "./App.css";
 import Card from "./Card";
+import {Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <div className="App">
+      
       <img
         alt="profile"
         src="https://pbs.twimg.com/media/FFHy-ipXIAITdC4.jpg"
@@ -41,6 +43,7 @@ function App() {
           content="Get free design book"
           Id="book__design"
         ></Card>
+        <Card link="/contact" content="Contact me" Id="contact"></Card>
         <a href="https://slack.com">
           <img className="svg" src={slack} alt="slack" />
         </a>
