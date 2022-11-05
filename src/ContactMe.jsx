@@ -26,14 +26,14 @@ const ContactMe = () => {
           <input type='email' placeholder="example@email.com" id="email" name='email' ></input>
         </div>
         <label className="input-lbl" for='message'>Message</label>
-        <textarea placeholder='message' id="message" name="message">
+        <textarea placeholder="Send me a message and I'll reply as soon as i can." id="message" name="message">
         </textarea>
         <div className='checkbox'>
           <input type='checkbox' id='agree' name='agree'></input>
-          <label for='agree'>You agree to providing your data to us to contact you</label>
+          <label for='agree'>You agree to providing us your data to contact you</label>
         </div>
 
-        <button className="btn__submit">Send message</button>
+        <button id="btn__submit">Send message</button>
       </form>
       <Footer />
     </div>
