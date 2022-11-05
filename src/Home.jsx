@@ -1,12 +1,11 @@
 import Card from "./Card";
 import slack from "./slack.svg";
 import github from "./github.svg";
-import i4g from "./i4g.svg";
-import zuri from "./zuri.svg";
-const Home=()=>{
-  return(
+import Footer from "./Footer";
+const Home = () => {
+  return (
     <div>
-    <img
+      <img
         alt="profile"
         src="https://pbs.twimg.com/media/FFHy-ipXIAITdC4.jpg"
         id="profile__img"
@@ -47,11 +46,7 @@ const Home=()=>{
         <a href="https://github.com/eyesaidyo">
           <img className="svg" src={github} alt="github" />
         </a>
-        <footer>
-          <img className="ft" src={zuri} alt="zuri" />
-          <span id="ft-text">HNG Internship 9 Frontend Task</span>
-          <img className="ft" src={i4g} alt="i4g" />
-        </footer>
+        <Footer />
       </div>
     </div>
   )

@@ -1,10 +1,12 @@
+import Footer from "./Footer"
+
 const ContactMe = () => {
   return (
     <div className="contact-page">
 
       <form className="contact-form">
-        <h3 className="form-text">contact me</h3>
-        <p className="form-text">reach out to me about any questions you may have</p>
+        <h2 className="form-text">Contact Me</h2>
+        <p className="form-text">Hi, reach out to me about any questions you may have.</p>
         <div className="names">
           <div className="name-item">
             <label className="lbl" for='first_name'>First Name</label>
@@ -33,6 +35,7 @@ const ContactMe = () => {
 
         <button className="btn__submit">Send message</button>
       </form>
+      <Footer />
     </div>
   )
 }

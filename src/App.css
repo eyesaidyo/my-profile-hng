@@ -95,15 +95,17 @@ footer {
 #last_name{
   display: inline;
   width: 99%;
-  padding:15px 0;
+  padding:15px 2px;
   margin-right:auto;
+  border-radius: 7px;
 }
 #first_name{
   display:inline;
   width: 99%;
   margin-left: 0;
   margin-right:12px;
-  padding: 15px 0;
+  padding: 15px 2px;
+  border-radius: 7px;
 }
 .btn__submit{
   background: #1570EF;
@@ -166,12 +168,16 @@ footer {
 }
 #message{
   width: 99%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 2px;
   border-radius:8px;
   margin: 10px 0;
 }
 .form-text{
   text-align: left;
   
+}
+h2{
+  color: #101828;
+  
+  font-style: normal;
 }
