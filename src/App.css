@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 #profile__img {
@@ -80,6 +81,7 @@ footer {
   display: block;
   text-align: left;
   color: #344054;
+  margin: 10px 0;
 }
 
 .contact-form{
@@ -87,12 +89,13 @@ footer {
   justify-content: center;
   flex-direction: column;
   /* border: 2px solid red;   */
-  padding: 10px 20%;
+  padding: 10px 35%;
+  color: #344054;
 }
 #last_name{
   display: inline;
   width: 99%;
-  padding:10px 14px;
+  padding:15px 0;
   margin-right:auto;
 }
 #first_name{
@@ -100,7 +103,7 @@ footer {
   width: 99%;
   margin-left: 0;
   margin-right:12px;
-  padding:10px 14px;
+  padding: 15px 0;
 }
 .btn__submit{
   background: #1570EF;
@@ -109,6 +112,7 @@ footer {
   border-radius: 8px;
   padding:15px;
   color:#ffff;
+  margin: 10px 0;
 }
 .names{
   /* border: 2px solid blue; */
@@ -120,11 +124,17 @@ footer {
 }
 #email{
   width:99%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius:6px;
+  
+  max-width: 10px 0;
 }
 .lbl{
   display:block;
   text-align: left;
   color: #344054;
+  margin: 10px 0;
 }
 .name-item{
   width:49.3%;
@@ -133,12 +143,14 @@ footer {
 }
 .checkbox{
   text-align: left;
+  margin: 10px 0;
   /* border: 4px solid pink; */
 }
 #agree{
   margin-left: 0;
+  margin-right: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .name-item{
     width:99%;
     
@@ -149,6 +161,7 @@ footer {
   }
   #email{
     width:98%;
+    
   }
 }
 #message{
@@ -156,4 +169,9 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius:8px;
+  margin: 10px 0;
+}
+.form-text{
+  text-align: left;
+  
 }

@@ -1,9 +1,10 @@
 const ContactMe = () => {
   return (
     <div className="contact-page">
-      <h3>contact me</h3>
-      <p>reach out to me about any questions you may have</p>
+
       <form className="contact-form">
+        <h3 className="form-text">contact me</h3>
+        <p className="form-text">reach out to me about any questions you may have</p>
         <div className="names">
           <div className="name-item">
             <label className="lbl" for='first_name'>First Name</label>
