@@ -30,7 +30,7 @@ const ContactMe = () => {
         </textarea>
         <div className='checkbox'>
           <input type='checkbox' id='agree' name='agree'></input>
-          <label for='agree'>You agree to providing us your data to contact you</label>
+          <label for='agree'>You agree to providing John Irem with your data to contact you</label>
         </div>
 
         <button id="btn__submit">Send message</button>
